@@ -20,7 +20,13 @@ class String
 
   end
 
-  def exclamation?
+  def exclamation? 
+    
+    if self.end_with?("!")
+      true
+    else
+      false
+    end
 
   end
 
